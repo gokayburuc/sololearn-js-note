@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outside Object</title>
+</head>
+
+<body>
+    <script>
+
+        function person(name, age) {
+            this.name = name;
+            this.age = age;
+            this.yearOfBirth = bornYear;
+        }
+
+        function bornYear() {
+            return 2022 - this.age;
+        }
+
+        var p1 = new person("gokay" , 35);
+
+        document.write(p1.age,"<br>");
+        document.write(p1.yearOfBirth());
+
+    </script>
+
+</body>
+
+</html>
