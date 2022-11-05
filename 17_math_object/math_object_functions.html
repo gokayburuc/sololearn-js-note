@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function main() {
+            var year = parseInt(readLine(), 10); 
+
+            // the output
+            console.log(calcCent(year));
+        }
+
+        // complete the function
+        function calcCent(year){
+            /* float sayıyı bir yukarı tamamlar ceil 
+            bu sebeple ilk olarak 100 e bölüp sonra ceil yapmak gerekiyor
+            */
+            var century = Math.ceil(year/100) ; 
+            return century
+        }
+
+    </script>
+</body>
+</html>

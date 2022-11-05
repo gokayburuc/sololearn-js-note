@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function main() {
+            //take the number of passed levels
+            var levels = parseInt(readLine(), 10);
+            var points = new Array();
+
+            var count = 0;
+            while (count < levels) {
+                var elem = parseInt(readLine(), 10);
+                points[count] = elem;
+                count++;
+            }
+
+            var sum = 0;
+            //calculate the sum of points 
+            for (let i = 0; i < points.length; i++) {
+                const element = points[i];
+                sum += element
+            }
+
+            //output
+            console.log(sum);
+        }
+    </script>
+</body>
+
+</html>
