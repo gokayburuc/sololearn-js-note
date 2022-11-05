@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function main() {
+            var year = parseInt(readLine(), 10);
+            var month = parseInt(readLine(), 10);
+            var day = parseInt(readLine(), 10);
+
+            console.log(getWeekDay(year, month, day)){
+                var names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                var d = new Date(year, month, day);
+                // complete this function
+                var day = d.getDay();
+                var weekday = names[day];
+                return weekday;
+                
+            }
+        }
+    </script>
+</body>
+
+</html>
