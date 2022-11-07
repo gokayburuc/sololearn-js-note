@@ -1,38 +1,5 @@
 # SOLOLEARN JS NOTES 
 
-## INDEX
-
-- [8_LOGICAL_OPERATORS](8_logical_operators)
-- [9_STRING_OPERATORS](9_string_operators)
-- [21_CHANGING_ATTRIBUTE](21_changing_attribute)
-- [5_ARITHMETIC_OPERATIONS](5_arithmetic_operations)
-- [18_DATE_OBJECTS](18_date_objects)
-- [12_OBJECTS](12_objects)
-- [3_COMMENTS](3_comments)
-- [14_OBJECT_INTIALIZATION](14_object_intialization)
-- [7_COMPARISON_OPERATORS](7_comparison_operators)
-- [19_DOM](19_DOM)
-- [27_FORM_VALIDATION](27_form_validation)
-- [15_METHODS](15_methods)
-- [24_EVENTS](24_events)
-- [0_CONSOLE_LOG](0_console_log)
-- [README_MAKER.PY](README_MAKER.py)
-- [17_MATH_OBJECT](17_math_object)
-- [23_ANIMATIONS](23_animations)
-- [1_OUTPUT](1_output)
-- [26_IMAGE_SLIDER](26_image_slider)
-- [6_ASSIGNMENT_OPERATORS](6_assignment_operators)
-- [README.MD](README.md)
-- [10_TRIP_PLANNER_PROJECT](10_trip_planner_project)
-- [22_CREATING_ELEMENTS](22_creating_elements)
-- [FILENAME.TXT](filename.txt)
-- [25_EVENTPROPAGATION](25_eventpropagation)
-- [13_OBJECT_CONSTRUCTOR](13_object_constructor)
-- [16_ARRAYS](16_arrays)
-- [11_FUNCTIONS](11_functions)
-- [TEST.IPYNB](test.ipynb)
-- [2_VARIABLES](2_variables)
-- [4_DATA_TYPES](4_data_types)
-- [20_SELECTING_ELEMENTS](20_selecting_elements)
+Sololearn JavaScript Notes
 
 ==================================================
