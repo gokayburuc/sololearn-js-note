@@ -1,5 +1,4 @@
-# SOLOLEARN JS NOTES 
-
+ # SOLOLEARN
 ## INDEX
 
 [8_LOGICAL_OPERATORS](8_logical_operators)
