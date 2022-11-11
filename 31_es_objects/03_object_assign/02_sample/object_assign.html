@@ -10,9 +10,17 @@
 
 <body>
     <script>
-        // es6 da kopyalanmış degerler hata mesajı vermez 
-        var a = { x: 1, x: 2, x: 3, x: 4 };
-        console.log(a.x); // 4 
+        let person = {
+            name: 'Jack',
+            age: 18
+        };
+
+        let newPerson = Object.assign({}, person);
+
+        newPerson.name = "Bob";
+
+        console.log(person.name); // jack
+        console.log(newPerson.name); // bob 
     </script>
 </body>
 
